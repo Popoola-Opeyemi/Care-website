@@ -1,0 +1,215 @@
+################ Pages routes ###################
+
+###
+GET http://localhost:5000/api/pages?page=1&perPage=20
+
+###
+DELETE  http://localhost:5000/api/pages/bo9iehtrmtikuj00a4sg
+
+###
+GET http://localhost:5000/api/pages/bo9i8ndrmtil6j5747fg
+
+###
+POST http://localhost:5000/api/pages
+Content-Type: application/json;charset=UTF-8
+
+
+###
+POST http://admin.pbgcare.co.uk/api/pages/boahl6q23aks2n2kcqpg
+Content-Type: application/json;charset=UTF-8
+
+{
+      "name": "Contacts",
+      "route": "contacts",
+      "attributes": {
+        "header":{
+          "image":{}
+        },
+        "content": {
+          "List": [
+            {
+              "address": "130 Old Street, London EC1V 9BD",
+              "email": "info@pbgcare.co.uk",
+              "mobile": "01322686765",
+              "title": "Head Office"
+            }
+          ]
+        }
+      }
+    }
+
+################ Contacts routes ###################
+###
+GET http://localhost:5000/api/contacts?page=1&perPage=20
+
+###
+DELETE  http://localhost:5000/api/contacts/1
+
+###
+GET http://localhost:5000/api/contacts/1
+
+###
+POST http://localhost:5000/api/contacts
+Content-Type: application/json;charset=UTF-8
+
+{
+  "name":"HomePage",
+  "email":"popstarbaed@gmail.com",
+  "mobile_number":"0901291212",
+  "message":"I love to be in control of every situation"
+}
+
+###
+POST http://localhost:5000/api/contacts
+Content-Type: application/json;charset=UTF-8
+
+{
+  "name":"HomePage",
+  "route":"/home",
+  "attributes": {"id":900}
+}
+
+
+################ Faq routes ###################
+###
+GET http://localhost:5000/api/faq?page=1&perPage=20
+
+###
+DELETE  http://localhost:5000/api/faq/1
+
+###
+GET http://localhost:5000/api/faq/1
+
+###
+POST http://localhost:5000/api/faq/2
+Content-Type: application/json;charset=UTF-8
+
+{
+  "name":"Money Matters",
+  "Content":"I love to be in control of every situation"
+}
+
+###
+POST http://localhost:5000/api/faq
+Content-Type: application/json;charset=UTF-8
+
+{
+   "name":"Money Matters",
+  "Content":"THis is a continuos thing that is very disturbing"
+}
+
+
+################ Faq routes ###################
+###
+GET http://localhost:5000/api/testimonials?page=1&perPage=20
+
+###
+DELETE  http://localhost:5000/api/testimonials/3
+
+###
+GET http://localhost:5000/api/testimonials/1
+
+###
+POST http://localhost:5000/api/testimonials/2
+Content-Type: application/json;charset=UTF-8
+
+{
+  "name":"Money Matters",
+  "Content":"I love to be in control of every situation"
+}
+
+###
+POST http://localhost:5000/api/testimonials
+Content-Type: application/json;charset=UTF-8
+
+{
+   "author":"Money Matters",
+  "Content":"THis is a continuos thing that is very disturbing"
+}
+
+
+
+################ Services routes ###################
+###
+GET http://localhost:5000/api/services?page=1&perPage=20
+
+###
+DELETE  http://localhost:5000/api/services/1
+
+###
+GET http://localhost:5000/api/services/1
+
+###
+POST http://localhost:5000/api/services/2
+Content-Type: application/json;charset=UTF-8
+
+{
+  "name":"Mater",
+   "url":"limpopo",
+  "Content":"THis is a continuos thing that is very disturbing",
+  "image":{}
+}
+
+###
+POST http://localhost:5000/api/services
+Content-Type: application/json;charset=UTF-8
+
+{
+   "name":"Matters",
+   "url":"limpopo",
+  "Content":"THis is a continuos thing that is very disturbing",
+  "image":{}
+}
+
+
+########### Authentication route  #############
+
+###
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json;charset=UTF-8
+
+{
+  "email": "o.davies@pbgdigital.co.uk",
+  "password": "admin"
+}
+
+###
+GET http://localhost:5000/api/auth/logout
+
+###
+GET http://localhost:5000/api/auth/status
+
+
+###
+
+GET http://localhost:5000/api/auth/users
+######
+
+
+################ Settings ###################
+###
+GET http://localhost:5000/api/settings
+
+###
+DELETE  http://localhost:5000/api/settings/3
+
+###
+GET http://localhost:5000/api/settings/boa86mdrmtiie25ar4i0
+
+###
+POST http://localhost:5000/api/settings/
+Content-Type: application/json;charset=UTF-8
+
+{
+  "attributes":{}
+}
+
+###
+GET http://localhost:5000/api/settings/1
+Content-Type: application/json;charset=UTF-8
+
+{
+  "name":"Settings",
+  "route":"settings",
+   "attributes":{"ope":1}
+}

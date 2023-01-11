@@ -1,0 +1,45 @@
+html {
+  body {
+    .is-bg-grey {
+      background-color: $grey;
+    }
+    .is-bg-red {
+      background-color: $red;
+    }
+    .is-bg-blue {
+      background-color: $blue;
+    }
+    .is-grey {
+      color: $grey;
+    }
+    .is-red {
+      color: $red;
+    }
+    .is-blue {
+      color: $blue;
+    }
+    .is-blue-bold {
+      font-family: "giloryBold";
+      color: $blue;
+    }
+    .is-gbold {
+      font-family: "giloryBold";
+    }
+    .is-glight {
+      font-family: "giloryLight";
+    }
+
+    .is-gmedium {
+      font-family: "giloryMedium";
+    }
+    .round {
+      margin: 0px 5px;
+      display: inline-block;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      padding-left: 5px;
+      box-sizing: border-box;
+    }
+  }
+}

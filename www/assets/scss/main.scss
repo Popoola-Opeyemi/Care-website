@@ -1,0 +1,275 @@
+html {
+  body {
+    // font-family: "giloryLight";
+    font-family: "giloryMedium";
+    .header-container {
+      padding: 10px 30px;
+      .main-header {
+        padding: 10px 0px;
+        border-bottom: 0.4px solid #e2dfdf;
+        .mobile-numbers a {
+          color: $grey;
+          text-decoration: none;
+        }
+        .socials {
+          padding-left: 20px;
+          a.mdi {
+            color: white;
+          }
+        }
+      }
+      nav.navbar {
+        .navbar-brand {
+          img {
+            max-height: 3rem;
+          }
+        }
+      }
+    }
+    section.hero-bg {
+      background-position: bottom;
+      background-size: cover;
+
+      background-repeat: no-repeat;
+      .hero-body {
+        .homepage-container {
+          .container-content {
+            .main-title {
+              font-size: 3rem;
+            }
+            .main-subtitle {
+              font-size: 1.5rem;
+              font-family: "giloryLight";
+            }
+            .buttons-container {
+              padding: 20px 0px;
+              // width: 30%;
+            }
+          }
+        }
+      }
+    }
+    section.services-children {
+      background-position: top;
+      background-size: cover;
+
+      background-repeat: no-repeat;
+    }
+    section.web-pages {
+      padding: 50px;
+      .pg-title {
+        font-size: 30px;
+      }
+      /*
+      ==========HOMEPAGE============
+      */
+      .homepage {
+        .home-img-box {
+          display: block;
+          height: 400px;
+          -webkit-box-shadow: 3px 2px 32px -7px rgba(0, 0, 0, 0.78);
+          -moz-box-shadow: 3px 2px 32px -7px rgba(0, 0, 0, 0.78);
+          box-shadow: 3px 2px 32px -7px rgba(0, 0, 0, 0.78);
+          // background-image: url(/img/banner/about.jpg);
+          background-position: bottom;
+          background-size: cover;
+
+          background-repeat: no-repeat;
+
+          .box-content {
+            padding-top: 150px;
+            .box-title {
+              font-size: 60px;
+            }
+            text-align: center;
+          }
+        }
+        section.testimonials {
+          .testimonial-title {
+            font-family: "giloryBold";
+            font-size: 5rem;
+            padding: 30px 0px;
+            text-align: center;
+          }
+          .testimonial-container {
+            padding: 0px 80px;
+            .testimonial-box {
+              height: 350px;
+              // width: 60%;
+              .testimonial-text {
+                height: 250px;
+                line-height: 40px;
+                font-family: "giloryLight";
+                font-style: italic;
+                font-size: 20px;
+              }
+              .testimonial-author {
+                font-family: "giloryBold";
+
+                padding-top: 40px;
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+      //========ABOUT===============
+      .about {
+        padding: 30px 40px;
+
+        .pg-content {
+          color: $grey !important;
+          line-height: 30px;
+        }
+      }
+      // ========PROCESS=============
+      .process {
+        padding: 0px 40px;
+        .pg-process-content {
+          padding: 20px 0px;
+          .process-image {
+            width: 300px;
+          }
+          .process-title {
+            text-transform: capitalize;
+            padding: 5px 0px;
+          }
+          .proceess-content {
+            line-height: 30px;
+          }
+          button.is-danger {
+          }
+        }
+      }
+      // ========Our Services=============
+      .services {
+        .pg-services-content {
+          padding: 20px 0px;
+          ul {
+            margin-left: 20px;
+            li {
+              margin: 20px 0px;
+            }
+          }
+          // .servicesList {
+          //   padding: 10px 0px;
+          //   span.content {
+          //     font-weight: 60px;
+          //   }
+          // }
+        }
+      }
+      // ========Inner Services Pages=====
+      .services-children {
+        padding: 20px;
+        .service-content {
+          padding: 20px 0px;
+          line-height: 30px;
+        }
+        .service-button {
+          margin: 20px 0px;
+        }
+      }
+      // =========FAQ=================
+      .faq {
+        .faq-list {
+          .faq-card {
+            margin: 30px 0px;
+            border-left: 5px solid #46518c;
+          }
+        }
+      }
+      // =========Join Us Page========
+      .join-us {
+        .pg-title {
+          padding: 20px 0px;
+        }
+        &-email {
+          color: $blue;
+          padding-top: 40px;
+          font-size: 20px;
+        }
+        ul {
+          list-style: disc;
+          padding-top: 10px;
+          padding-left: 30px;
+        }
+        p {
+          strong {
+            color: $blue;
+            font-size: 20px;
+          }
+          // margin-top: 30px;
+        }
+      }
+      // =========Contact Page========
+      .contact {
+        .head-office {
+          font-size: 25px;
+          padding: 30px 0px;
+        }
+        .contact-content {
+          .pg-form {
+            label {
+              color: $blue;
+            }
+          }
+          .contact-container {
+            p {
+              padding: 5px 0px;
+              color: $blue;
+            }
+          }
+        }
+      }
+    }
+    .footer {
+    }
+
+    section.footer {
+      background-color: $blue;
+      padding: 3rem 1.5rem;
+      .contact-box {
+        .contact-title {
+          font-size: 100%;
+          font-weight: bold;
+          text-transform: capitalize;
+          padding: 0px 0px 10px 0px;
+        }
+        .contact-subtitle {
+          padding: 0px 0px 15px 0px;
+        }
+      }
+      .footer-content {
+        padding: 50px 100px;
+        color: white;
+        &__footer-title {
+          font-family: "giloryBold";
+          font-size: 20px;
+          // text-align: center;
+          text-transform: uppercase;
+        }
+        &__footer-link {
+          font-family: "giloryLight";
+          padding: 10px 0px;
+          font-size: 18px;
+          // text-align: left;
+          text-transform: capitalize;
+        }
+        .office-reg {
+          padding: 20px 0px;
+          .office-title {
+          }
+          .office-email {
+            text-decoration: none;
+            text-transform: lowercase;
+          }
+        }
+        .footer-underline:not(:last-child) {
+          border-bottom: 1px #cbc7d6 solid;
+          text-decoration: overline;
+        }
+      }
+    }
+  }
+}

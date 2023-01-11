@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "giloryLight";
+  src: url("../scss/Fonts/Gilroy-Regular.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "giloryMedium";
+  src: url("../scss/Fonts/Gilroy-Medium.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "giloryBold";
+  src: url("../scss/Fonts/Gilroy-Bold.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "variables.scss";
+@import "widgets.scss";
+@import "main.scss";
+@import "mobile.scss";

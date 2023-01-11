@@ -1,0 +1,149 @@
+html {
+  body {
+    .login-page {
+      .left-content {
+        background-image: url('/img/login_bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .column {
+        .admin-title {
+          font-size: 30px;
+          padding: 20px 0px;
+        }
+        .right-column-content {
+          padding: 100px;
+        }
+      }
+      .login-form {
+        padding: 50px 0px;
+        .input-form {
+          label {
+            color: $blue;
+          }
+        }
+        .login-button-container {
+          padding: 50px 0px;
+          .button[disabled] {
+            background-color: $red !important;
+          }
+        }
+      }
+    }
+    .admin-dashboard {
+      min-height: 100vh;
+      background-image: url('/img/pattern1.png');
+      // background-image: url('/img/login_bg.jpg');
+      // background-size: cover;
+      // background-repeat: no-repeat;
+
+      .dashboard-sidebar {
+        aside {
+          position: fixed;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          padding: 0 0 50px;
+          width: 200px;
+          min-width: 45px;
+          max-height: 100vh;
+          background: rgba(0, 0, 0, 0.7);
+          // background-color: darken($color: #46518c, $amount: 15);
+          overflow-y: auto;
+          overflow-x: hidden;
+
+          .top-header {
+            padding: 15px 10px;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            // background-color: $blue;
+
+            background-color: rgba(51, 51, 51, 0.541);
+            font-weight: bold;
+          }
+          .navigation-list {
+            margin: 50px 20px;
+            &-link {
+              color: #fff;
+              display: flex;
+              border-radius: 8px;
+              padding: 5px 20px;
+            }
+            &-li {
+              .nuxt-link-active {
+                border-top: 1px solid #919191;
+                border-bottom: 1px solid #919191;
+                background-color: hsla(0, 0%, 53%, 0.51);
+              }
+            }
+            li {
+              color: #fff;
+              font-size: 15px;
+              font-weight: 700;
+              margin-top: 25%;
+              a {
+                display: flex;
+                align-items: center;
+              }
+            }
+            // li.nav {
+            //   color: #fff;
+            //   font-weight: 700;
+            //   margin: 30% 0px;
+            //   a {
+            //     color: white;
+            //     font-size: 18px;
+            //   }
+            //   a.nuxt-link-active {
+            //     background-color: red;
+            //   }
+            //   a i {
+            //     padding-right: 10px;
+            //   }
+            // }
+          }
+        }
+      }
+
+      .admin-main {
+        margin-left: 200px;
+        transform: translateZ(0);
+        min-height: 100vh;
+        // background: hsla(0, 0%, 100%, 0.54);
+        .topnavigation {
+          height: 58px;
+          text-transform: capitalize;
+          background-color: hsla(0, 0%, 96%, 0.86);
+          border-bottom: 1px solid #afafaf;
+          padding: 7.5px 15px;
+          font-size: 140%;
+          color: #333;
+          display: flex;
+          justify-content: space-between;
+          .right {
+            i {
+              margin-right: 15px;
+              font-size: 25px;
+              color: #171717;
+            }
+          }
+        }
+        .pages-content {
+          padding: 30px;
+          .pages {
+            .box-items {
+              padding: 12px;
+              border-bottom: 1px solid lighten($color: #46518c, $amount: 50);
+              text-transform: capitalize;
+              .level.item a {
+                text-decoration: none;
+                color: $blue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "Pages": [
+    {
+      "name": "Hompage",
+      "route": "home",
+      "attributes": {
+        "header": {
+          "image": {},
+          "pageName": "Homepage",
+          "content": {
+            "title": "",
+            "subtitle": "",
+            "image": {}
+          }
+        },
+        "content": {
+          "title": "",
+          "List": [
+            { "title": "", "link": "", "image": {} },
+            { "title": "", "link": "", "image": {} },
+            { "title": "", "link": "", "image": {} }
+          ]
+        }
+      }
+    },
+    {
+      "name": "About",
+      "route": "about",
+      "attributes": {
+        "header": {
+          "image": {},
+          "pageName": "About"
+        },
+        "content": {
+          "content": "",
+          "title": ""
+        }
+      }
+    },
+    {
+      "name": "Services",
+      "route": "services",
+      "attributes": {
+        "header": {
+          "image": {},
+          "pageName": "services"
+        },
+        "content": {
+          "title": "",
+          "content": ""
+        }
+      }
+    },
+    {
+      "name": "Services",
+      "route": "services",
+      "attributes": {
+        "header": {
+          "image": {},
+          "pageName": "services"
+        },
+        "content": {
+          "title": "Our Services",
+          "List": [
+            {
+              "content": "Assist with a ‘good morning’ start to the day, helping you to get up, wash, shower or bathe, dress and have breakfast"
+            },
+            {
+              "content": "Remind or assist you to take your medicines and collect or return medication from your pharmacy or dispensing GP surgery"
+            },
+            {
+              "content": "Prepare meals with or for you and assist you at mealtimes"
+            },
+            {
+              "content": "Collect your pension for you or with you"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Process",
+      "route": "process",
+      "attributes": {
+        "header": {
+          "image": {},
+          "title": "process"
+        },
+        "content": {
+          "title": "Our Care Process",
+          "List": [{ "title": "", "image": {}, "content": "" }]
+        }
+      }
+    },
+    {
+      "name": "Faq",
+      "route": "faq",
+      "attributes": {
+        "header": {
+          "title": "Frequently Asked Questions (FAQ)"
+        },
+        "content": {
+          "title": "",
+          "content": ""
+        }
+      }
+    },
+    {
+      "name": "Contacts",
+      "route": "contacts",
+      "attributes": {
+        "header": {
+          "title": "We Care, Let's talk"
+        },
+        "content": {
+          "List": [
+            {
+              "address": "130 Old Street, London EC1V 9BD",
+              "email": "info@pbgcare.co.uk",
+              "mobile": "01322686765",
+              "title": "Head Office"
+            }
+          ],
+          "social": {
+            "facebook": "https://web.facebook.com/PrudentDomCare/",
+            "instagram": "https://www.linkedin.com/company/prudent-domiciliary-care",
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/company/prudent-domiciliary-care"
+          }
+        }
+      }
+    }
+  ]
+}
